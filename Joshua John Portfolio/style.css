@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Smooch&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Smooch&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+}
+
+.mainform{
+    background-image: url('pexels-chevanon-photography-323503.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.contactform{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding: 0 48px;
+}
+
+.contactform h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: beige;
+}
+
+.form-text{
+    font-size: 20px;
+}
+
+.submit{
+    padding: 8px 15px;
+    margin: 10px 0;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #4178ca;
+    color: white;
+}
+
+.submit:hover{
+    background-color: #050303;
+    color: white;
+    background-color: white;
+    color: #4178ca;
+}
+
+.full{
+    padding: 50px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.form-textimp{
+    font-size: 14px;
+    color: rgb(220, 20, 20);
+}
+
+#email{
+    padding: 1px;
+    border-radius: 8px;
+}
+
+#clientname{
+    padding: 1px;
+    border-radius: 8px;
+}
+
+#clientphone{
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.main h1{
+    color: black;
+}
+
+.contactform h3
+{
+    padding: 30px 0 0;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: flex;
+  justify-content: center;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.animate-charcter h3 {
+    text-align: center;
+}
+
+.maincontent{
+    background-image: url('pexels-anni-roenkae-3109830.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 84vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.firstcontent{
+    background-color: rgba(34,22,44,255);
+    height: 100vh;
+    width: 50vw;
+    background-image: url('Joshuajohn.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    margin-left: 98px;
+}
+
+.secondcontent{
+    background-color: #fff;
+    opacity: 0.5;
+    font-weight: bolder;
+    height: 100vh;
+    width: 50vw;
+    color: black;
+    text-align: center;
+    padding: 143px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+.secondcontent h2{
+    margin: 8px;
+    text-align: center;
+}
+
+.thirdcontent{
+    margin-top: 30px;
+}
+
+.thirdcontent p{
+    font-weight: bolder;
+    text-align: end;
+    font-size: 15px;
+}
+
+.skillone{
+    width: 404px;
+    height: 23px;
+    background-color: red;
+}
+.skilltwo{
+    width: 420px;
+    height: 23px;
+    background-color: red;
+}
+.skillthree{
+    width: 300px;
+    height: 23px;
+    background-color: red;
+}
+
+.span{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sidebar{
+    padding: 7px;
+    background-color: #ff8539;
+    width: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 22px;
+}
+
+.sidebar nav li{
+     list-style: none; /* (this will help to erase the dots (list property contain dots)) */
+     font-size: 20px;
+     padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar nav li a:hover{
+    color: black;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 117px 0;
+    background-image: url('pexels-gradienta-7135057.jpg');
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: rgba(78, 173, 164, 0.719); */
+    font-size: 333px;
+    height: 58vh;
+    width: 76vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 57px;
+}
+
+.devpic img{
+    height: 47vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hello{
+    font-size: 48px;
+    color: black;
+}
+
+.name{
+    font-size: 35px;
+    font-family: 'Smooch', cursive;
+    color: black;
+}
+
+.about{
+    font-size: 19px;
+    margin-top: 11px;
+    color: black;
+}
+
+.moreabout{
+    font-size: 16px;
+    margin-top: 6px;
+    color: black;
+}
+.buttons{
+    margin-top: -230px;
+    margin-left: -11px;
+    margin-right: 3px;
+}
+
+.buttons button{
+    padding: 6px;
+    border-radius: 18px;
+    background-color: #4178ca;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgba(20, 73, 248, 0.822);
+}
+
+.buttons button a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons button a:hover{
+    background-color: white;
+    color: rgba(20, 73, 248, 0.822);
+}
+
+.blogitem{
+    font-family: 'Source Sans Pro', sans-serif;;
+    margin-top: 30px;
+}
+
+.maincontainer{
+    width: 70vw;
+    padding-left: 10px;
+}
+
+.resume{
+    padding: 180px;
+    font-size: 25px;
+}
+
+.resume a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.resume a:hover{
+    text-decoration: none;
+    color: #b80d0d;
+}
+
+.blogcontainer h1{
+    margin-top: 1px;
+}
+
+.blogitem button{
+    padding: 6px;
+    border-radius: 18px;
+    background-color: #4178ca;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 1px;
+    cursor: pointer;
+}
+
+.blogitem button:hover{
+    background-color: white;
+    color: rgba(20, 73, 248, 0.822);
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+/* .ham{
+    padding: 10px;
+} */
+
+.cross{
+    position: absolute;
+    top: -2px;
+    left: 160px;
+}
+
+/* @media (max-width: 1619px) {
+    *{
+
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+} */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/intro.html">My Intro</a></li>
+              <li><a href="/blog.html" >Blog</a></li>
+              <li><a href="/Service.html">Service</a></li>
+              <li><a href="/contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mainform">
+        <div class="contactform">
+          <h3>Contact me for work related enquiries</h3>
+            <form>
+                <div class="full">
+                <div class="nameofvisitor">
+                <label for="exampleInputName" class="form-name">Name:</label>
+                <input type="Name" class="thisname" id="clientname" aria-describedby="Helpname">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                  <input type="emails" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Phone:</label>
+                  <input type="phone" class="form-control" id="clientphone">
+                </div>
+                <div id="thisisimp" class="form-textimp">(We'll never share your Email & Phone with anyone else)</div>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+              </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
